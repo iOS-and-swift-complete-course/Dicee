@@ -29,8 +29,8 @@
                                     <constraint firstAttribute="height" constant="120" id="F0c-nU-Qby"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="1MK-4o-4F7">
-                                <rect key="frame" x="247" y="388" width="120" height="120"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="1MK-4o-4F7">
+                                <rect key="frame" x="247" y="387" width="120" height="120"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVx-Su-eRG">
                                 <rect key="frame" x="157" y="641" width="100" height="55"/>
@@ -42,6 +42,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Roll">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="rollClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pcj-M1-s8f"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -65,6 +68,10 @@
                             <constraint firstItem="gIi-XH-TIK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zux-ks-mQi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="diceOne" destination="lua-ZG-MtG" id="xCW-6S-2nG"/>
+                        <outlet property="diceTwo" destination="1MK-4o-4F7" id="HEa-4G-cOd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
