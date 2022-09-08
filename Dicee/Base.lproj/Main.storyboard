@@ -20,22 +20,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ftO-Rs-b6Q">
-                                <rect key="frame" x="87" y="129" width="240" height="128"/>
+                                <rect key="frame" x="109" y="69" width="196" height="128"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="lua-ZG-MtG">
-                                <rect key="frame" x="47" y="388" width="120" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="DV7-YD-Isp"/>
-                                    <constraint firstAttribute="height" constant="120" id="F0c-nU-Qby"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="lua-ZG-MtG">
+                                <rect key="frame" x="50" y="398" width="120" height="120"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="1MK-4o-4F7">
-                                <rect key="frame" x="247" y="387" width="120" height="120"/>
+                                <rect key="frame" x="264" y="398" width="120" height="120"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVx-Su-eRG">
-                                <rect key="frame" x="157" y="641" width="100" height="55"/>
+                                <rect key="frame" x="157" y="763" width="100" height="49"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="by8-mT-5aL"/>
+                                    <constraint firstAttribute="width" constant="100" id="2uR-hE-ME3"/>
                                 </constraints>
                                 <color key="tintColor" red="0.55750024320000002" green="0.15941601990000001" blue="0.1484295726" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -50,22 +46,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="JVx-Su-eRG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="3bI-FJ-dnd"/>
-                            <constraint firstItem="ftO-Rs-b6Q" firstAttribute="centerX" secondItem="JVx-Su-eRG" secondAttribute="centerX" id="53R-Eo-6FB"/>
-                            <constraint firstItem="gIi-XH-TIK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AJx-gE-BvS"/>
-                            <constraint firstItem="lua-ZG-MtG" firstAttribute="top" secondItem="1MK-4o-4F7" secondAttribute="top" id="GZC-Ze-h89"/>
-                            <constraint firstItem="ftO-Rs-b6Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="H7h-Vc-Z9m"/>
-                            <constraint firstItem="gIi-XH-TIK" firstAttribute="centerX" secondItem="ftO-Rs-b6Q" secondAttribute="centerX" id="SjI-Bk-53O"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1MK-4o-4F7" secondAttribute="trailing" constant="47" id="WpZ-nz-OqF"/>
-                            <constraint firstItem="lua-ZG-MtG" firstAttribute="bottom" secondItem="1MK-4o-4F7" secondAttribute="bottom" id="beC-MO-NUK"/>
-                            <constraint firstItem="gIi-XH-TIK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="fGU-iO-lUy"/>
-                            <constraint firstItem="ftO-Rs-b6Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="85" id="fSP-aP-3V8"/>
-                            <constraint firstItem="gIi-XH-TIK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j9h-bz-7Ai"/>
-                            <constraint firstItem="lua-ZG-MtG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="m9r-l7-VhE"/>
-                            <constraint firstItem="1MK-4o-4F7" firstAttribute="leading" secondItem="lua-ZG-MtG" secondAttribute="trailing" constant="80" id="qAJ-pC-Rvz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JVx-Su-eRG" secondAttribute="bottom" constant="166" id="rHv-LS-O8d"/>
-                            <constraint firstItem="gIi-XH-TIK" firstAttribute="centerY" secondItem="1MK-4o-4F7" secondAttribute="centerY" id="u9K-Ui-Asx"/>
-                            <constraint firstItem="gIi-XH-TIK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zux-ks-mQi"/>
+                            <constraint firstItem="ftO-Rs-b6Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="CFW-vK-oJc"/>
+                            <constraint firstAttribute="trailing" secondItem="gIi-XH-TIK" secondAttribute="trailing" id="H3v-eC-Kkp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JVx-Su-eRG" secondAttribute="bottom" constant="50" id="IvP-uQ-IaD"/>
+                            <constraint firstItem="JVx-Su-eRG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K2J-Zc-FQp"/>
+                            <constraint firstItem="gIi-XH-TIK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OkJ-yj-JLV"/>
+                            <constraint firstItem="lua-ZG-MtG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dlI-xW-Uhc"/>
+                            <constraint firstItem="1MK-4o-4F7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hPq-1f-NiC"/>
+                            <constraint firstItem="gIi-XH-TIK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kjQ-8A-ceL"/>
+                            <constraint firstItem="lua-ZG-MtG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="o8J-DI-Nkb"/>
+                            <constraint firstItem="ftO-Rs-b6Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rBs-pF-DNm"/>
+                            <constraint firstAttribute="bottom" secondItem="gIi-XH-TIK" secondAttribute="bottom" id="vEr-Lg-dNB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1MK-4o-4F7" secondAttribute="trailing" constant="50" id="xXK-Vr-D8A"/>
+                            <constraint firstItem="lua-ZG-MtG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="zbi-Vg-aeP"/>
                         </constraints>
                     </view>
                     <connections>
